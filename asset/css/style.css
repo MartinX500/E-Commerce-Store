@@ -1,0 +1,135 @@
+/* this is the <body>*/
+body{
+    background-color: whitesmoke;
+}
+/* this is the <header> */
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: x-large;
+}
+/* this is the <nav> */
+nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+/* this is a Child Combinator Selector for this <a> in <nav> */
+nav > a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+/* this is what happens when <nav> > <a> is been hovered over */
+nav > a:hover{
+    color: gold;
+}
+/* this is for the all <section> */
+section{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+/* this is for the <h2> */
+h2{
+    color: black;
+    text-align: center;
+    font-size: x-large;padding-top: 2rem;
+}
+/* this is for the <hr> which represents the line  */
+hr{
+    margin: 2rem;
+}
+/* this is for the class named flex */
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* this is for the class named shirt */
+.shirt{
+    width: 14rem;
+    border-radius: 20px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/* this is for the class named pants */
+.pants{
+    width: 14rem;
+    border-radius: 20px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/* this is for the class named shoes */
+.shoes{
+    width: 14rem;
+    border-radius: 20px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/* this is for the id named sub1 */
+#sub1{
+    flex: 80%;
+    justify-content: center;
+}
+/* this is for the id named sub2 */
+#sub2{
+    flex: 20%;
+    border: 1px solid white;
+    text-align: center;
+}
+/* this is for the class named name */
+.name{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* this is for the class named brand */
+.brand{
+    color: grey;
+    font-size: medium;
+}
+/* this is for the class named price */
+.price{
+    color: #007bff;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* this is the <footer> */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
